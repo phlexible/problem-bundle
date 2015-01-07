@@ -1,4 +1,6 @@
-Ext.namespace('Phlexible.problems');
+Ext.provide('Phlexible.problems.ProblemsGrid');
+
+Ext.require('Phlexible.problems.model.Problem');
 
 Phlexible.problems.ProblemsGrid = Ext.extend(Ext.grid.GridPanel, {
     title: Phlexible.problems.Strings.problems,
